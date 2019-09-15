@@ -7,6 +7,11 @@ import java.util.ArrayList;
 public class Necklace {
     private ArrayList<Gemstone> gems;
 
+    public ArrayList<Gemstone> GetGems(){
+        return gems;
+    }
+
+
     public Necklace(ArrayList<Gemstone> gems){
         this.gems = gems;
     }
