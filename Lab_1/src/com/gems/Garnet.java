@@ -35,8 +35,8 @@ public class Garnet extends Gemstone {
         gemTransperancy = value;
     }
 
-    public Garnet(String name, float carat, float gemCost, float gemTransperncy){
-        this.gemName = name;
+    public Garnet( float carat, float gemCost, float gemTransperncy){
+        this.gemName = "Гранат";
         this.gemTransperancy = gemTransperncy;
         this.gemCost = gemCost;
         this.carat = carat;

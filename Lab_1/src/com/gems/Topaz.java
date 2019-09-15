@@ -35,8 +35,8 @@ public class Topaz extends Gemstone {
         gemTransperancy = value;
     }
 
-    public Topaz(String name, float carat, float gemCost, float gemTransperncy){
-        this.gemName = name;
+    public Topaz(float carat, float gemCost, float gemTransperncy){
+        this.gemName = "Топаз";
         this.gemTransperancy = gemTransperncy;
         this.gemCost = gemCost;
         this.carat = carat;

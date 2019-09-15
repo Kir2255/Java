@@ -35,8 +35,8 @@ public class Zircon extends Gemstone {
         gemTransperancy = value;
     }
 
-    public Zircon(String name, float carat, float gemCost, float gemTransperncy){
-        this.gemName = name;
+    public Zircon(float carat, float gemCost, float gemTransperncy){
+        this.gemName = "Циркон";
         this.gemTransperancy = gemTransperncy;
         this.gemCost = gemCost;
         this.carat = carat;

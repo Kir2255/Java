@@ -35,8 +35,8 @@ public class Tourmaline extends Gemstone {
         gemTransperancy = value;
     }
 
-    public Tourmaline(String name, float carat, float gemCost, float gemTransperncy){
-        this.gemName = name;
+    public Tourmaline(float carat, float gemCost, float gemTransperncy){
+        this.gemName = "Турмалин";
         this.gemTransperancy = gemTransperncy;
         this.gemCost = gemCost;
         this.carat = carat;

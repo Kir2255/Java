@@ -35,8 +35,8 @@ public class Sapphire extends Gemstone {
         gemTransperancy = value;
     }
 
-    public Sapphire(String name, float carat, float gemCost, float gemTransperncy){
-        this.gemName = name;
+    public Sapphire(float carat, float gemCost, float gemTransperncy){
+        this.gemName = "Сапфир";
         this.gemTransperancy = gemTransperncy;
         this.gemCost = gemCost;
         this.carat = carat;

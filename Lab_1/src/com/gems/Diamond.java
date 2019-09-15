@@ -35,8 +35,8 @@ public class Diamond extends Gemstone {
         gemTransperancy = value;
     }
 
-    public Diamond(String name, float carat, float gemCost, float gemTransperncy){
-        this.gemName = name;
+    public Diamond(float carat, float gemCost, float gemTransperncy){
+        this.gemName = "Алмаз";
         this.gemTransperancy = gemTransperncy;
         this.gemCost = gemCost;
         this.carat = carat;
