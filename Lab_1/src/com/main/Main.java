@@ -22,7 +22,7 @@ public class Main {
             System.out.println("3. Посчитать общий вес камней и их стоимость");
             System.out.println("4. Отсортировать камни ожерелья по ценности");
             System.out.println("5. Поиск камней ожерелья по заданному диапазону прозрачности");
-            System.out.println("0. Выхлд");
+            System.out.println("0. Выход");
 
 
             try {
@@ -45,7 +45,7 @@ public class Main {
                         System.out.println("Общий вес камней :\t" + weight + "\t Общая стоимость : \t" + cost);
                         break;
                     case 4:
-                        GemOutput(new Necklace(gemstones).GetGems());
+                        //GemOutput(new Necklace(gemstones).GetGems());
 
                         Necklace necklace = new Necklace(gemstones);
                         necklace.CostSorting();
@@ -65,9 +65,8 @@ public class Main {
 
                                 if (left < right) {
                                     necklace = new Necklace(gemstones);
-                                    necklace.TransperancyRange(left, right);
 
-                                    GemOutput(necklace.GetGems());
+                                    GemOutput(necklace.TransperancyRange(left, right));
 
                                     newFlag = false;
                                 } else {
@@ -88,7 +87,7 @@ public class Main {
             catch (Exception e){
                 System.out.println("Ошибка!!! Повторите ввод.");
             }
-        }while (flag && (choice < 0 || choice > 5));
+        }while (flag);
 
 
     }
@@ -144,11 +143,14 @@ public class Main {
                     case 0:
                         localFlag = false;
                         break;
+                    default:
+                        localFlag = false;
+                        break;
                 }
             } catch (Exception e) {
                 System.out.println("Ошибка!!! Повторите ввод.");
             }
-        }while (localFlag && (choice < 0 || choice > 6));
+        }while (localFlag);
     }
 
     private static void InputStats(ArrayList<Double> temp){
