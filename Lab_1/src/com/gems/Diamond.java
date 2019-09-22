@@ -7,32 +7,16 @@ public class Diamond extends Gemstone {
         return gemName;
     }
 
-    public void setGemName(String value){
-        this.gemName = value;
-    }
-
     public float getCarat(){
         return carat;
-    }
-
-    public void setCarat(float value){
-        carat = value;
     }
 
     public float getGemCost(){
         return gemCost;
     }
 
-    public void setGemCost(float value){
-        gemCost = value;
-    }
-
     public float getGemTransperancy(){
         return gemTransperancy;
-    }
-
-    public void setGemTransperancy(float value){
-        gemTransperancy = value;
     }
 
     public Diamond(float carat, float gemCost, float gemTransperncy){

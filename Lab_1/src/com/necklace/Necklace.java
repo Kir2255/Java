@@ -3,6 +3,7 @@ package com.necklace;
 import com.gemstone.Gemstone;
 
 import java.util.ArrayList;
+import java.util.Comparator;
 
 public class Necklace {
     private ArrayList<Gemstone> gems;
@@ -16,49 +17,38 @@ public class Necklace {
         this.gems = gems;
     }
 
+    // Возвращает общий вес камней ожерелья
     public Double TotalWeight(){
         double totalWeight = 0;
         for (Gemstone gemstone : gems){
-            totalWeight += gemstone.carat;
+            totalWeight += gemstone.getCarat();
         }
 
         return totalWeight;
     }
 
+    // Возвращает общую стоимость камней ожерелья
     public Double TotalCost(){
         double totalCost = 0;
         for (Gemstone gemstone : gems){
-            totalCost += gemstone.gemCost;
+            totalCost += gemstone.getGemCost();
         }
 
         return totalCost;
     }
 
+    // Сортировка камней по стоимости
     public void CostSorting(){
-        for (int i = 0; i < gems.size(); i++){
-            double min = gems.get(0).gemCost;
-            int index = 0;
+        gems.sort((o1, o2) -> (int) (o1.getGemCost() - o2.getGemCost()));
 
-            for (int j = i + 1; j < gems.size(); j++){
-                if (min > gems.get(i).gemCost){
-                    min = gems.get(i).gemCost;
-                    index = j;
-                }
-            }
-
-            if (i != index){
-                Gemstone tempGem = gems.get(i);
-                gems.set(i, gems.get(index));
-                gems.set(index, tempGem);
-            }
-        }
     }
 
+    // Возвращает список камней, у которых значение прозрачности находится в определенном диапазоне
     public ArrayList<Gemstone> TransperancyRange(double left, double right){
         ArrayList<Gemstone> temp = new ArrayList<>();
 
         for (Gemstone gem : gems){
-            if (gem.gemTransperancy >= left && gem.gemTransperancy <= right){
+            if (gem.getGemTransperancy() >= left && gem.getGemTransperancy() <= right){
                 temp.add(gem);
             }
         }

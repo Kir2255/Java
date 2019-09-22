@@ -13,7 +13,7 @@ public class Main {
         ArrayList<Gemstone> gemstones = new ArrayList<>();  // Массив драгоценных камней
         ArrayList<Double> temp = new ArrayList<>(3);
 
-        boolean flag = true;
+        boolean flag = true;  // Флаг-переменная для выхода из основного меню
         int choice = 0;
 	    do {
 	        System.out.println("\t\t\t\t\tМеню");
@@ -24,7 +24,7 @@ public class Main {
             System.out.println("5. Поиск камней ожерелья по заданному диапазону прозрачности");
             System.out.println("0. Выход");
 
-
+            // Обработка исключений для ввода пользователя
             try {
                 System.out.print("\nПункт меню:\t");
                 choice = new Scanner(System.in).nextInt();
@@ -92,6 +92,7 @@ public class Main {
 
     }
 
+    // Функция, добавляющая в список gemstones объект класса Gemstone
     private static void AddGem(ArrayList<Gemstone> gemstones, ArrayList<Double> temp){
         boolean localFlag = true;
         int choice = 0;
@@ -153,6 +154,7 @@ public class Main {
         }while (localFlag);
     }
 
+    // Функция ввода значений основных полей класса Gemstone
     private static void InputStats(ArrayList<Double> temp){
         boolean flag = true;
         do {
@@ -188,12 +190,19 @@ public class Main {
         }while (flag);
     }
 
+    // Функция для вывода подробной информации о камнях
     private static void GemOutput(ArrayList<Gemstone> gemstones){
-        System.out.println("\t\t\tСписок камней");
+        if (gemstones.size() != 0){
+            System.out.println("\t\t\t\t\tСписок камней");
 
-        for (Gemstone gem : gemstones){
-            System.out.println("Тип камня : " + gem.gemName + " Вес камня : " + gem.carat + " карат. Стоимость : " +
-                    gem.gemCost + " Прозрачность : " + gem.gemTransperancy);
+            for (Gemstone gem : gemstones){
+                System.out.println("Тип камня : " + gem.getGemName() + " Вес камня : " + gem.getCarat() + " карат. Стоимость : " +
+                        gem.getGemCost() + " Прозрачность : " + gem.getGemTransperancy());
+            }
         }
+        else{
+            System.out.println("\nКамни отстутствуют\n");
+        }
+
     }
 }
