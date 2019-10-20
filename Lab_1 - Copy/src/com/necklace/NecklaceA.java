@@ -1,7 +1,6 @@
 package com.necklace;
 
 import com.gemstone.Gemstone;
-import javafx.css.StyleableProperty;
 
 import java.util.ArrayList;
 import java.util.Comparator;

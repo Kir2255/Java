@@ -2,27 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5ad4f5e-6155-4938-8329-fddf45e38ddf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab_1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab_1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab_1/com/gems/Diamond.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab_1/com/gems/Diamond.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab_1/com/gems/Garnet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab_1/com/gems/Garnet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab_1/com/gems/Sapphire.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab_1/com/gems/Sapphire.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab_1/com/gems/Topaz.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab_1/com/gems/Topaz.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab_1/com/gems/Tourmaline.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab_1/com/gems/Tourmaline.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab_1/com/gems/Zircon.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab_1/com/gems/Zircon.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab_1/com/gemstone/Gemstone.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab_1/com/gemstone/Gemstone.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab_1/com/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab_1/com/main/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab_1/com/necklace/Necklace.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab_1/com/necklace/Necklace.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gems/Diamond.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gems/Diamond.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gems/Garnet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gems/Garnet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gems/Sapphire.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gems/Sapphire.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gems/Topaz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gems/Topaz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gems/Tourmaline.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gems/Tourmaline.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gems/Zircon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gems/Zircon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gemstone/Gemstone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gemstone/Gemstone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/necklace/Necklace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/necklace/Necklace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab_2/lib/mssql-jdbc-7.4.1.jre11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab_2/src/com/db/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab_2/src/com/db/TourType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab_2/src/com/db/TravelAgent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab_2/src/com/db/TravelList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab_1 - Copy/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab_1 - Copy/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab_1 - Copy/out/production/Lab_1/com/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab_1 - Copy/out/production/Lab_1/com/main/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab_1 - Copy/out/production/Lab_1/com/necklace/NecklaceA.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab_1 - Copy/out/production/Lab_1/com/necklace/NecklaceA.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab_1 - Copy/out/production/Lab_1/com/necklace/NecklaceB.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab_1 - Copy/out/production/Lab_1/com/necklace/NecklaceB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab_1 - Copy/src/com/necklace/NecklaceA.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab_1 - Copy/src/com/necklace/NecklaceA.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
