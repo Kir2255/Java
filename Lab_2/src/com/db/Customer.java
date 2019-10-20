@@ -22,4 +22,13 @@ public class Customer {
     public boolean isRegularClient() {
         return regularClient;
     }
+
+    @Override
+    public String toString() {
+        return "\n Customer{" +
+                "customerID=" + customerID +
+                ", fio='" + fio + '\'' +
+                ", regularClient=" + regularClient +
+                '}';
+    }
 }

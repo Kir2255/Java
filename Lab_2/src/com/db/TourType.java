@@ -22,4 +22,13 @@ public class TourType {
     public boolean isTotTour() {
         return totTour;
     }
+
+    @Override
+    public String toString() {
+        return "\n TourType{" +
+                "tourID=" + tourID +
+                ", tour='" + tour + '\'' +
+                ", totTour=" + totTour +
+                '}';
+    }
 }

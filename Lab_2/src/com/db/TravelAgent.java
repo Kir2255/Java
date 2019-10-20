@@ -16,4 +16,12 @@ public class TravelAgent {
     public String getFio() {
         return fio;
     }
+
+    @Override
+    public String toString() {
+        return "\n TravelAgent{" +
+                "travelAgentID=" + travelAgentID +
+                ", fio='" + fio + '\'' +
+                '}';
+    }
 }
