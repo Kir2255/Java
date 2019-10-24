@@ -165,6 +165,8 @@ public class Main {
                                             System.out.printf("\n %d rows added", rows);
                                             break;
                                         case 4:
+                                            initData(statement);
+
                                             preparedStatement = connection.prepareStatement(SQL_ADD_TRAVEL);
 
                                             // Выводим список находящихся в БД заказчиков
@@ -294,6 +296,7 @@ public class Main {
                             boolean thirdFlag = true;
                             do {
                                 menu("Удалить", new String[]{"Клиенты", "Туры", "Турагенты", "Оплаченные туры"}, true);
+                                initData(statement);
                                 try {
                                     scanner = new Scanner(System.in);
                                     userChoice = scanner.nextInt();
