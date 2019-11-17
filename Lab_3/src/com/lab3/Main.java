@@ -33,7 +33,8 @@ public class Main {
                     System.out.print("Введите строку:\t");
                     tempString = new Scanner(System.in).nextLine();
                     System.out.printf(DateParser.isCorrectDate(tempString) ? "Строка %s - дата в формате dd/mm/yyyy\n" :
-                            "Строка %s - не в формате dd/mm/yyyy\n", tempString);
+                            "Строка %s - не в формате dd/mm/yyyy или находится вне допустимого диапазона" +
+                                    " лет (1600 - 9999)\n", tempString);
                     break;
                 case 2:
                     System.out.print("Введите строку:\t");
