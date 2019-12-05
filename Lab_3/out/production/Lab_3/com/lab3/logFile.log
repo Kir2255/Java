@@ -19,3 +19,10 @@ java.util.InputMismatchException
 	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
 	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
 	at com.lab3.Main.main(Main.java:26)
+2019-11-17 17:35:33 ERROR Main:28 - 
+java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at com.lab3.Main.main(Main.java:26)
